@@ -19,3 +19,7 @@ Inputs
 - Buzzer (audible alert when gas exceeds threshold)
 - Serial monitor output (real-time sensor readings used for debugging, calibration, and verification)
 
+## Design Notes
+- The MQ-5 sensor’s onboard comparator was used to provide a digital threshold signal, simplifying detection logic.
+- Threshold sensitivity was tuned to balance responsiveness and false positives.
+- System behavior was verified using both physical outputs and serial monitor readings.
