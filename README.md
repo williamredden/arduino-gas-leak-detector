@@ -6,3 +6,15 @@ An embedded system using an MQ-5 sensor and Arduino to detect LPG, methane, hydr
 ▶️ Full system demonstration; Portable Gas Leak Detection System (Arduino): https://youtu.be/uWade8Qd0Jg?si=SRWCj3aXiakNgnTq
 
 The video shows the system's baseline state, then controlled gas exposure via a lighter that causes LED activation and buzzer alert behavior.
+
+## Inputs and Outputs
+
+### Inputs
+- MQ-5 gas sensor (analog signal proportional to gas concentration)
+- Power input (USB or 9V battery)
+
+### Outputs
+- LED indicator (visual alert when gas is detected)
+- Buzzer (audible alert when gas exceeds threshold)
+- Serial monitor output (real-time sensor readings used for debugging, calibration, and verification)
+
