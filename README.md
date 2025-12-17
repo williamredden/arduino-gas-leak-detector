@@ -23,7 +23,7 @@ The video shows the system's baseline state, then controlled gas exposure via a 
 - Threshold sensitivity was tuned to balance responsiveness and false positives.
 - System behavior was verified using both physical outputs and serial monitor readings.
 
-## 📷 Images & Documentation
+## Images & Documentation
 
 This repository includes schematic documentation, physical hardware verification, and operational test results to demonstrate correct system design and functionality.
 
