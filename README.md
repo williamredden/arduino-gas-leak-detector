@@ -22,39 +22,12 @@ The video shows the system's baseline state, then controlled gas exposure via a 
 - The MQ-5 sensor’s onboard comparator was used to provide a digital threshold signal, simplifying detection logic.
 - Threshold sensitivity was tuned to balance responsiveness and false positives.
 - System behavior was verified using both physical outputs and serial monitor readings.
-Yes 👍 — this is exactly the right place for it, and the flow is correct.
-
-Recommended README flow (what you have + what comes next)
-
-Your current structure:
-
-Project title + overview ✅
-
-Demo (video link + explanation) ✅
-
-Inputs and Outputs ✅
-
-Design Notes ✅
-
-➡️ Next section should be the Images & Documentation section
-This is where your schematic, physical layout, and test screenshots belong.
-
-✅ Final recommended order (clean + professional)
-
-Paste the Images & Documentation section directly after ## Design Notes.
-
-Here is the final flow:
-
-## Design Notes
-- The MQ-5 sensor’s onboard comparator was used to provide a digital threshold signal, simplifying detection logic.
-- Threshold sensitivity was tuned to balance responsiveness and false positives.
-- System behavior was verified using both physical outputs and serial monitor readings.
 
 ## 📷 Images & Documentation
 
 This repository includes schematic documentation, physical hardware verification, and operational test results to demonstrate correct system design and functionality.
 
-### 🔌 Circuit Design & Hardware
+### Circuit Design & Hardware
 
 - **`PGLDS Schematic (Fritzing).pdf`**  
   Breadboard schematic created using Fritzing, showing all electrical connections between the Arduino Uno, MQ-5 gas sensor, LED indicator, current-limiting resistors, and buzzer. This schematic serves as the primary circuit reference.
@@ -64,7 +37,7 @@ This repository includes schematic documentation, physical hardware verification
 
 ---
 
-### 📊 System Operation & Test Results
+### System Operation/Results
 
 - **`baseline_no_gas_reading.png`**  
   Serial Monitor output showing baseline sensor readings under normal conditions with no gas present.
@@ -80,7 +53,7 @@ This repository includes schematic documentation, physical hardware verification
 
 ---
 
-### 🔋 Power Source
+### Power Source Options
 
 - **Primary Power Source:** Arduino Uno 5V (USB-powered)  
 - **Alternative Power Source:** 7.2V battery (not shown in schematic)
